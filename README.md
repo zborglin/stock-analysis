@@ -1,6 +1,7 @@
 # Refactoring Result of Stock Analysis Excel Macro
 
-## **Overview of Project:** The purpose of this report is to discuss the impact of code refactoring on an Excel VBA Macro that is used to analyze stock trading volumes and returns. While both analysis files produce the same analysis, the refactored code demonstrates and reduction in run time. The refactoring adjusts the for loop structure to create a more efficient execution of the analysis.
+## **Overview of Project:** 
+The purpose of this report is to discuss the impact of code refactoring on an Excel VBA Macro that is used to analyze stock trading volumes and returns. While both analysis files produce the same analysis, the refactored code demonstrates and reduction in run time. The refactoring adjusts the for loop structure to create a more efficient execution of the analysis.
 
 ## Results
 ### Unrefactored Results

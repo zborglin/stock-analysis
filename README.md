@@ -11,9 +11,10 @@ The purpose of this report is to discuss the impact of code refactoring on an Ex
 ### Refactored Results
 ![Refactored 2017 Analysis](https://github.com/zborglin/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
 ![Refactored 2018 Analysis](https://github.com/zborglin/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
-#### **Analysis of Results and Description of Refactoring:** As shown in the refactored analysis above, the runtime decreased by **0.617 (77%)** and **0.635 (78%)** for the 2017 and 2018 analysis respectively. This improvement in performance is attributed to an adjustment of the for loop structure as described in the images below.
+#### **Analysis of Results and Description of Refactoring:** 
+As shown in the refactored analysis above, the runtime decreased by **0.617 (77%)** and **0.635 (78%)** for the 2017 and 2018 analysis respectively. This improvement in performance is attributed to an adjustment of the for loop structure as described in the images below.
 ![Unrefactored Code](https://github.com/zborglin/stock-analysis/blob/master/Resources/Unrefactored_Code.png)
-##### In the original code (unrefactored), a nested for loop is employed to loop through all data for each ticker. In the refactored code shown below, the for loop structure is flattened and the data is extracted for each ticker during a single loop that utilizes an index variable to fill arrays with the relevant information.
+In the original code (unrefactored), a nested for loop is employed to loop through all data for each ticker. In the refactored code shown below, the for loop structure is flattened and the data is extracted for each ticker during a single loop that utilizes an index variable to fill arrays with the relevant information.
 ![Refactored Code](https://github.com/zborglin/stock-analysis/blob/master/Resources/Refactored_Code.png)
 
 ##Summary

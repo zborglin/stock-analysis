@@ -5,7 +5,7 @@ The purpose of this report is to discuss the impact of code refactoring on an Ex
 
 ## Results
 ### Unrefactored Results
-![Unrefactored 2017 Analysis](https://github.com/zborglin/stock-analysis/blob/master/Resources/VBA_Challenge_2017_unrefactored.png)
+
 ![Unrefactored 2018 Analysis](https://github.com/zborglin/stock-analysis/blob/master/Resources/VBA_Challenge_2018_unrefactored.png)
 
 ### Refactored Results

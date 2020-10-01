@@ -20,7 +20,7 @@ In the original code (unrefactored), a nested for loop is employed to loop throu
 ###
 ![Refactored Code](https://github.com/zborglin/stock-analysis/blob/master/Resources/Refactored_Code.png)
 
-##Summary
+## Summary
 ### What are the advantages or disadvantages of refactoring code?
 In most cases, the first draft of a coding application can be characterized as having inefficiencies and less than clear formatting. Refactoring is an opportunity for developers to review code to find better ways of accomplishing a goal and a more clear way to communicate the functionality. The benefit of this process is to create a better script that can be implemented with fewer resources and can be understood by someone looking at the code for the first time. A disadvantage to refactoring is that it requires time and energy to optimize a code. In some cases, it may be more appropriate to stick with a less efficient code that still provides the correct output if it is not important to scale the code to handle larger amount of data. 
  
